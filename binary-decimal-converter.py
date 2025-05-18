@@ -87,13 +87,16 @@ elif (opcion == '2'):
 
     binario_invertido = num_binario[::-1]
   
-    #When the input decimal is negative, a sign bit of 1 is added to the left of the converted binary number
-    #When the input decimal is positive, a sign bit of 0 is added to the left of the converted binary number
+# If the sign is +, the binary value will be printed with an additional 0 on the left indicating that it is positive, and if it is -, the same, but a 1 will be added on the left.
     
     if signo == '-':
         bitSigno = 1
         print(f"\nThe number {num} in binary is {bitSigno}{binario_invertido}")
+        print("When the entered decimal number is negative, a sign bit of 1 is added to the left of the translated binary number.")
     else:
         bitSigno = 0
         print(f"\nThe number {num} in binary is {bitSigno}{binario_invertido}")
+        print("When the entered decimal number is positive, a sign bit of 0 is added to the left of the translated binary number.")
+
+
        
