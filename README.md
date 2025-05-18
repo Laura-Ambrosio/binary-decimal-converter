@@ -2,7 +2,9 @@
 
 ## Description
 
-This is a group project that integrates knowledge from Mathematics and Programming courses. The main objective was to develop a software program that converts numbers between binary and decimal formats. The program was built using the concepts learned so far, such as conditionals and loops.
+This is a group project that integrates knowledge from Mathematics and Programming courses. 
+The main goal was to develop a software program that converts numbers between binary and decimal formats. 
+The program was built using the concepts learned, such as conditionals and loops.
 
 The project allows the user to convert:
 
